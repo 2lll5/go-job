@@ -2,6 +2,19 @@
 
 All notable changes to go_job are documented here.
 
+## [1.7.1](https://github.com/2lll5/go-job/compare/v1.7.0...v1.7.1) (2026-10-12)
+
+
+### Bug Fixes
+
+* **ats:** log fetch errors at WARN instead of DEBUG ([ac669c6](https://github.com/2lll5/go-job/commit/ac669c6bbdce68147713929d72ff34b21265a5b2))
+* **pf6:** pass nil base to NewRedactingSlogHandler to avoid slog deadlock ([1715ad7](https://github.com/2lll5/go-job/commit/1715ad733ab8250e123e587facbfece4383cb4c8))
+
+
+### Reverts
+
+* remove mistaken Google Drive rules from fork ([a97cf9e](https://github.com/2lll5/go-job/commit/a97cf9e4c186fb1982fa8110dc7e663b73f81418))
+
 ## [1.7.0](https://github.com/anatolykoptev/go-job/compare/v1.6.0...v1.7.0) (2026-07-16)
 
 
